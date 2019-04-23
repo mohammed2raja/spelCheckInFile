@@ -148,4 +148,6 @@ async function spelCheckInFile() {
 }
 
 spelCheckInFile();
-module.export = spelCheckInFile;
+module.export = () => {
+  spelCheckInFile();
+}
