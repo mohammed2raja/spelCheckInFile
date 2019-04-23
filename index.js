@@ -145,5 +145,5 @@ async function spelCheckInFile() {
   readDictionary();
 }
 
-//startChecking();
-module.export = spelCheckInFile;
+startChecking();
+//module.export = spelCheckInFile;

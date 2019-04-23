@@ -21,5 +21,8 @@
     "minimist": "^1.2.0",
     "simple-git": "^1.110.0",
     "touch": "^3.1.0"
+  },
+  "bin":{
+    "spel-check-in-file":"./index.js"
   }
 }
