@@ -1,6 +1,6 @@
 {
   "name": "spelcheckinfile",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
     "simple-git": "^1.110.0",
     "touch": "^3.1.0"
   },
-  "bin":{
-    "spel-check-in-file":"./index.js"
+  "bin": {
+    "spel-check-in-file": "./index.js"
   }
 }
