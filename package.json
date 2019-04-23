@@ -1,6 +1,6 @@
 {
   "name": "spelcheckinfile",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -24,5 +24,6 @@
   },
   "bin": {
     "spel-check-in-file": "./index.js"
-  }
+  },
+  "files": [ "/dictionary" ]
 }
