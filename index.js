@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const chalk = require("chalk");
 const clear = require("clear");
 const figlet = require("figlet");
@@ -145,5 +147,5 @@ async function spelCheckInFile() {
   readDictionary();
 }
 
-startChecking();
+spelCheckInFile();
 //module.export = spelCheckInFile;
