@@ -13,8 +13,8 @@ var LOCAL_DIC_WORDS = [];
 var TARGET_WORDS = [];
 var ALL_WORDS = [];
 
-const _localDictionaryFileName = "dictionary/local-dictionary.txt";
-const _dictionaryFileName = "dictionary/en_US.txt";
+const _localDictionaryFileName = "./dictionary/local-dictionary.txt";
+const _dictionaryFileName = "./dictionary/en_US.txt";
 
 const fileNames = process.argv.splice(2);
 
